@@ -1,0 +1,6 @@
+Asif Choudhury, 501111719
+
+Requirement 1 has some problems. It can push and pop correctly, but it doesn't check if what was popped is the same as the input.
+Requirement 2 works.
+
+Question 1: Assuming the standalone tag pushes and pops itself immediately, to allow the standalone tag in requirement 1 I would check if the end of the toPush array has a '/' at the end, and if it does then push the string and then pop it immediately.
