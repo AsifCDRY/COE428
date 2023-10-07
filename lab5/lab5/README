@@ -1,5 +1,3 @@
-Asif Choudhury, 501111719
-
 Requirement 1 has some problems. It can push and pop correctly, but it doesn't check if what was popped is the same as the input.
 Requirement 2 works.
 
