@@ -3,6 +3,20 @@
 
 int main(int argc, char * argv[])
 {
+    /* Personalized state machine: 
+    	Current		0	1
+     	   A		F	D
+	   B		G	C
+           C		H	F
+	   D		E	A
+    	   E		H	F
+	   F		B	F
+    	   G		A	C
+	   H		D	G
+    
+    	Starting state is B
+    */
+	
     char initialStates[] = {'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H'};
     char nextState0[] =	   {'F', 'G', 'H', 'E', 'H', 'B', 'A', 'D'};
     char nextState1[] =    {'D', 'C', 'E', 'A', 'F', 'F', 'C', 'G'};
