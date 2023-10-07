@@ -1,0 +1,13 @@
+Asif Choudhury, 501111719
+Everything compiles and works. Insertion sort was used for the first requirement, didn't have any trouble. The numbers that were hardcoded in sortMain were sorted in ascending order. For the second requirement, there was some trouble when trying to sort the numbers inputted in the command line, but I decided to copy the values that will be written in the command line into a separate array variable and call the "mySort" function using the array variable. This fixed the problem.
+
+Question 1.
+The betterSort function can be called in the mySort function used in this lab. We know mySort takes in two parameters, those being the data and the length of the data. We also know that an array starts at index 0 and the final index is the length of the array -1. Using this information, we can call betterSort in mySort like this:
+
+betterSort(data[], 0, length-1);
+
+Or if you would like a more specific range, it could be something like:
+
+betterSort(data[], 2, 6);
+
+where this sorts from the third number to the seventh.
