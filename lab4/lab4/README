@@ -1,3 +1,3 @@
-Asif Choudhury, 501 111 719
-
-Inputting 0, 1 and c works fine but garbage and delete has a few problems. Garbage doesn't always put the proper state in the garbage array and for delete, typing in a second argument doesn't work either. Delete works if no argument is entered in the command line.
+Inputting 0, 1 and c works fine but garbage and delete has a few problems. 
+Garbage doesn't always put the proper state in the garbage array and for delete, typing in a second argument doesn't work either. 
+Delete works if no argument is entered in the command line.
