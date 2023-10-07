@@ -1,5 +1,3 @@
-Asif Choudhury, 501111719
-
 Everything compiles and works correctly. Typing in "towers" in the cmd line uses conditions n = 3, from = 1, and dest = 2. Typing in "towers" along with a number sets condition n = number entered, and uses the original "from" and "dest" values that were hardcoded in the main method. Typing in "towers" with three numbers sets all three parameters n, from and dest. Entering an invalid number for any of the parameters displays an error message.
 
 Requirement 1 Questions:
