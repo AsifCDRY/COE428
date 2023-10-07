@@ -1,4 +1,3 @@
-Asif Choudhury, 501111719
 Everything compiles and works. Insertion sort was used for the first requirement, didn't have any trouble. The numbers that were hardcoded in sortMain were sorted in ascending order. For the second requirement, there was some trouble when trying to sort the numbers inputted in the command line, but I decided to copy the values that will be written in the command line into a separate array variable and call the "mySort" function using the array variable. This fixed the problem.
 
 Question 1.
