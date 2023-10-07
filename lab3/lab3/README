@@ -1,0 +1,30 @@
+Asif Choudhury, 501 111 719
+
+Everything in insertionSort and mergeSort worked properly. The array is correctly sorted and it displays the correct amount of comparisons, swaps and copies.
+
+INSERTION SORT ANALYSIS:
+
+Best Case:
+Best case scenario of insertion sort is when the array is already sorted.
+arr = {1, 2, 3, 4, 5}, n = 5 (length of array).
+Each element in the array starting at 2, will be compared with the element behind it only once. In this case, there will be a total of 4 comparisons, or n-1 comparisons. Therefore, the time complexity for best case is O(T(n)) = O(n).
+Equation for number of moves/swaps/comparisons: T(n) = n-1 or more generally T(n) = an - b.
+
+Worst Case:
+Worst case scenario is when the array is in descending order.
+arr = {5, 4, 3, 2, 1}, n = 5.
+Each element in the array starting at 4 will be compared with the element before it x amount of times, where x is the index of the element. For example, 4 will be compared to 5 before switching positions; 3 will be compared to both 4 and 5 before it switches position; etc... For this case, there will be a total of 10 comparisons or [n(n-1)]/2 comparisons. Therefore, the time complexity for worst case is O(T(n)) = O(n^2).
+Equation for number of moves/swaps/comparisons: T(n) = [n(n-1)]/2 or more generally T(n) = an^2 + bn + c.
+
+Average Case:
+Average case holds the same time complexity as worst case: O(T(n)) = O(n^2).
+Equation for number of moves/swaps/comparisons: T(n) = [n(n-1)]/2 or more generally T(n) = an^2 + bn + c.
+
+
+MERGE SORT ANALYSIS:
+
+Since merge sort always divides the array down to only one element, the time complexities for best, worst, and average cases should all be the same.
+
+In a run-time tree for an array being sorted by merge sort, the number of levels of the tree will always be log(n), where n is the length of the array (and the number of operations done on each subarray). So, the time complexity of merge sort is the number of levels in the run-time tree multiplied by n. O(T(n)) = n log(n).
+Equation for number of moves/swaps/comparisons: T(n) = 2T(n/2) + an. We can see the recursive nature of merge sort in the equation with T(n/2) acting as a visualization of recursively calling merge and dividing the array in half.
+
