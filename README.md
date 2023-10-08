@@ -6,4 +6,4 @@ Lab 4 deals with finite state machines.
 It focuses on changing the elements in the machine, removing elements, and making elements point to another element that it wasn't originally pointing to.
 If there is an element that is unreachable, i.e. there are no elements pointing to it, it is put in garbage and deleted from the FSM.
 
-Lab 5 focuses on XML Heap.
+Lab 5 focuses on using heap data structure. Simple XML format was used to push strings into the stack and pop it when inputted into the command line.
